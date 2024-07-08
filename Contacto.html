@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">  
+        <title>Contactos</title>
+        <link rel="stylesheet" href="style-general.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/pngwing.com.png" alt="logoStar" width="220px"></h1> <!-- se cambia el tamaño de la imagen  -->
+                <nav>
+                    <ul class="Navegacion">
+                        <li> <a href="index.html">HOME</a></li>
+                        <li> <a href="producto.html">PRODUCTOS</a></li>
+                        <li> <a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <main>
+        
+
+        <form>
+            <label for="nombreapellido" >Nombre y apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required placeholder="José Emanuel">
+
+            <label for="correo" >Correo electrónico</label>
+            <input type="text" id="correo" class="input-padron" required placeholder="jemanuel@homail.es">
+
+            <label for="tel" >Teléfono</label>
+            <input type="text" id="tel" class="input-padron" required placeholder="+507 6545-8574">
+            
+            <label for="mensajebox">Mensaje</label>
+            <textarea  id="mensajebox" cols="30" rows="10" class="input-padron" required placeholder="Nesecito ayuda con la bateria de mi pc."></textarea>
+            
+            <fieldset>
+            
+                <legend >¿Cómo le gustaria que le contactemos ?</legend>
+            
+                <label for="radio-email"><input type="radio" name="contacto" 
+                value="Email" id="radio-email"> Email</label>
+                
+
+                <label for="radio-Telefono"> <input type="radio" name="contacto" 
+                value="Telefono" id="radio-Telefono">Telefono</label>
+                
+                
+                <label for="radio-Whatsapp"> <input type="radio" name="contacto"
+                 value="Whatsapp" id="radio-Whatsapp" checked>Whatsapp</label>
+                
+            </fieldset>
+            
+            <fieldset>
+                <legend>¿En cual horario prefiere ser atendido?</legend>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"> <input type="checkbox" checked>¿Le gustaría recibir novedades de nuevas tecnologías ? </label>
+           
+            
+            <input type="submit" value="Enviar Formulario" class="Enviar">
+        </form>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Jueves</td>
+                    <td>08:00 a 21:00</td>
+                </tr>
+    
+                <tr>
+                    <td>Viernes</td>
+                    <td>08:00 a 21:00</td>
+                </tr>
+    
+                <tr>
+                    <td>Sabados</td>
+                    <td>08:00 a 21:00</td>
+                </tr>
+    
+                <tr>
+                    <td>Domingo</td>
+                    <td>08:00 a 14:00</td>
+                </tr>
+            </tbody>
+            
+            
+            
+
+        </table>
+
+
+    </main>
+    <footer>
+        <img src="imagenes/logoStar.PNG" alt="logoStar" width="10%">
+        <p class="Copy">  &copy; Copyright Star-Technological - 2024</p>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,299 @@
+
+/*// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+*/
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+  
+}
+
+
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+nav a{
+    
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+
+
+
+.servicios{
+    width: 740px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+.servicios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align:  top ;
+    /* background-color: #cccccc;*/ /*comentarios  en ccs3*/
+    margin: 10px 1.0%;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border: 2px solid;
+    border-top-width: 10px;
+    border-radius: 0px 0px 20px 20px;
+    /*border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;*/
+
+   
+    /*border-width: 2px 0px; se reducen las tres lineas en una sola 
+    border-style: solid;
+    */
+}
+
+.servicios li:hover{
+    border-color: #c78c19;
+    
+    /*text-decoration: underline;*/
+}
+
+.servicios li:active{
+    border-color:#B0E0E6 ;
+}
+
+
+h2{
+    font-size: 30px;
+    font-weight:bold ;
+}
+
+.servicios li:hover h2{
+    font-size: 31px;
+
+}
+
+.servicio-descipcion{
+    font-size: 18px;
+
+}
+.servicio-actividad{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center ;
+    background: url(imagenes/bg.jpg);
+    padding: 20px;
+}
+.Copy{
+    color: #bbbbbb;
+    font-size: 10px;
+    margin: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;   
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.ccheckbox{
+    margin: 20px 0;
+}
+.Enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #f59505;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.Enviar:hover{
+    background: #adc719;
+    transform: scale(1.05);
+    
+   
+}
+table{
+    margin: 40px 40px;
+}
+thead{
+    background: #bbbbbb;
+    color: azure;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid #000000 ;
+    padding: 8px 15px;
+}
+
+/* este seran los estimos para el home*/
+
+.banner{
+    width: 100%;
+}
+
+
+
+.Titulo-Principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left ;
+    
+}
+
+
+
+
+.principal p{
+    margin: 0 0 1em;
+
+} 
+
+.toolingman{
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+} 
+
+h1{
+    padding: 20px;
+}
+
+
+.principal strong{
+    font-weight: bold;
+}
+
+/*.principal em{
+    font-style: italic;
+}*/
+
+.principal{
+    padding: 3em;
+    background: #fefefe;
+}
+
+.servicioLista {
+    width: 40%;
+    
+}
+
+.servicioLista:hover{
+    opacity: 0.7;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 15px orange, -10px -10px gray ;
+}
+
+
+.mapa{
+    padding:3em 0 ;
+    background: linear-gradient(45deg,white,grey,orange 75%);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+/*.servicioLista{
+    padding: 3em;
+    background: #888888;
+    width: 940px;
+    margin: 0 auto; 
+}*/
+
+
+.contenidos{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.servicioLista{
+    width: 40%;
+    display: inline-block;
+}
+
+
+
+
+
+.items{
+    line-height: 1.5;
+
+}
+.items::before{
+    content: "❉";
+
+}
+.items :first-child{
+    font-weight: bold;
+}
+
+.video{
+    width: 560px;
+    margin: 1em auto;
+    vertical-align: top;
+
+}
+
+@media screen and (max-width: 480px){
+    .caja,.principal.mapa,.contenidos,.video{
+        width: auto;
+    }
+    
+}

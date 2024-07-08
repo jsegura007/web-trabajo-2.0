@@ -1,0 +1,42 @@
+
+h1 {
+    text-align: center;
+}
+
+#banner{
+    width: 100%;
+}
+.servicioLista{
+    width: 20%;
+    vertical-align: top;
+}
+
+.principal{
+    background-color: antiquewhite;
+    padding: 20px;
+
+}
+ol{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+
+body{
+    background: #cccccc; 
+}
+
+
+em strong{
+    color: brown;
+}
+
+
+p #Servicio{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
